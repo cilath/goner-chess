@@ -1,0 +1,7 @@
+# Netlify / Cloudflare Pages. GitHub Pages ignores this file (it already serves .wasm as application/wasm).
+/engine/*.wasm
+  Content-Type: application/wasm
+/engine/*.js
+  Content-Type: text/javascript; charset=utf-8
+/sw.js
+  Cache-Control: no-cache
